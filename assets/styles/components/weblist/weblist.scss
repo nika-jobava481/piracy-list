@@ -1,0 +1,43 @@
+@import '../../variables/variables';
+
+ul#weblist {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family: $roboto;
+    justify-content: space-around;
+    li {
+        width: max-content; 
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        b {
+            color: #009688; 
+            margin: 0 5px;
+        }
+
+        i {
+            color: #FF5733; 
+            margin: 0 5px;
+        }
+
+        i:nth-child(2) {
+            color: #333;
+        }
+
+        &:hover {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transform: scale(1.03);
+        }
+    }
+}
