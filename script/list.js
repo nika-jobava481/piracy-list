@@ -5,28 +5,28 @@ const weblist = document.getElementById("weblist")
 
 const websitelist = [
     {
-        name: "Website 1",
-        link: "https://example.com",
-        description: "This is the first website.",
+        name: "srulad.com",
+        link: "https://srulad.com",
+        description: "use dns",
         date: "2023-10-21",
         status: "Active",
-        category: ["Tech", "News"]
+        category: ["movies"]
     },
     {
-        name: "Website 2",
-        link: "https://sample.com",
-        description: "A sample website with details.",
-        date: "2023-10-22",
-        status: "Inactive",
-        category: ["Entertainment"]
-    },
-    {
-        name: "Website 3",
-        link: "https://test.com",
-        description: "A testing website for experimentation.",
-        date: "2023-10-23",
+        name: "adjaranet.to",
+        link: "https://adjaranet.to",
+        description: "change player if stream won't start.",
+        date: "2023-10-21",
         status: "Active",
-        category: ["Tech", "Development"]
+        category: ["movies"]
+    },
+    {
+        name: "fmoviesz",
+        link: "https://fmoviesz.to",
+        description: "domain change is often",
+        date: "2023-10-21",
+        status: "Active",
+        category: ["movies"]
     },
     // Add more objects as needed
 ];
@@ -35,7 +35,7 @@ const websitelist = [
 
 for(let website of websitelist){
     weblist.innerHTML+=`
-    <li><a href="${website.link}">${website.name}</a> <b>${website.category}</b> <i>${website.status}</i> <i>${website.date}</i></li>
+    <li><a href="${website.link}">${website.name}</a> <b>${website.category.join(", ")}</b> <i>${website.status}</i> <i>${website.date}</i></li>
     `
 }
 
