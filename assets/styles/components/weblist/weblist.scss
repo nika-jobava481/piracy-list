@@ -10,15 +10,16 @@ ul#weblist {
     justify-content: space-around;
     li {
         width: max-content; 
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
 
         a {
             text-decoration: none;
             color: #333;
             font-weight: bold;
-
-            &:hover {
-                text-decoration: underline;
-            }
+            
         }
 
         b {
@@ -36,8 +37,8 @@ ul#weblist {
         }
 
         &:hover {
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            transform: scale(1.03);
+            transition: .3s;
+            transform: scale(1.05);
         }
     }
 }

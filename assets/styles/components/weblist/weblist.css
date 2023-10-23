@@ -11,14 +11,15 @@ ul#weblist {
 ul#weblist li {
   width: -moz-max-content;
   width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 ul#weblist li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-}
-ul#weblist li a:hover {
-  text-decoration: underline;
 }
 ul#weblist li b {
   color: #009688;
@@ -32,6 +33,6 @@ ul#weblist li i:nth-child(2) {
   color: #333;
 }
 ul#weblist li:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  transform: scale(1.03);
+  transition: 0.3s;
+  transform: scale(1.05);
 }/*# sourceMappingURL=weblist.css.map */
