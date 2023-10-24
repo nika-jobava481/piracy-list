@@ -13,9 +13,9 @@ current = obj
 
 
 infoarea.innerHTML = `
-<a href="${current.link}">
-<h3>${current.name}</h3>
-</a>
-<p><span></span> <b>${current.category.join(", ")}</b> <i>${current.status} ${current.date}</i></p>
-<p>${current.description}</p>
+    <a href="${current.link}">
+        <h3>${current.name}</h3>
+    </a>
+    <p><b>${current.category.join(", ")}</b> <i>${current.status} ${current.date}</i></p>
+    <p>${current.description}</p>
 `
