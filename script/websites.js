@@ -33,7 +33,7 @@ const webslist = [
     },    
 ];
 
-let current=""
+let current={}
 const seperator="yugrbstdnbsetnbirsnbr"
 
 

@@ -1,1 +1,1 @@
-console.log('app | 0.0.3 - in development')
+console.log('app | 0.0.4 - in development')
